@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	font-size: 16px;
+}
+#header-nav{
+	margin: 0;
+	background-color:grey;
+	border-radius: 0px;
+}
+#header-nav .navbar-brand a,#header-nav .navbar-brand a:hover{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-shadow: 1px 0px 1px goldenrod;
+	margin-top: -2px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1.2px solid black;
+}
+#nav-list{
+	margin-top: 10px;
+}
+.navbar-header button{
+	clear: both;
+	margin-top:-30px;
+}
+#nav-list li{
+	font-size: 1.4em;
+}
+#nav-list li a:hover{
+	background-color: #ffcc79;
+	color: darkcyan;
+}
+#main .jumbotron{
+	padding: 0;
+	background-color: white;
+}
+.the-topic{
+	padding: 15px;
+	background-color: grey;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+.the-topic h2{
+ color: #ee3e83;
+ top: 0;
+ right: 0;
+}
+ .the-topic a:link{
+ 	text-decoration: none;
+ }
+.topic-container{
+	padding: 20px;
+}
